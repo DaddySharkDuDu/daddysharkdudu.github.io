@@ -1,0 +1,140 @@
+body{
+  padding:1%;
+  margin:4%;
+}
+
+header{
+  background-color:rgb(129,181,65);
+  background:url(../images/flywheel.jpg) no-repeat fixed;
+  background-size:cover;
+  height:180px;
+  padding:5px;
+}
+
+h1{
+  color:#ffffff;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:150%;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+nav a{
+  box-sizing:border-box;
+  display:inline-block;
+  height:50px;
+  text-decoration:none;
+  text-align:center;
+  margin:1% 5% 1% 0;
+  padding:1% 6%;
+  border-radius:25px;
+  font-size:100%;
+  font-family:Verdana, Geneva, sans-serif;
+  color:#000000;
+  background-color:#c9c8c5;
+}
+
+.active{
+  background-color:#ffb8b8;
+}
+  
+
+.left{
+  display:block;
+  float:left;
+  width:25%;
+  background-color:#81B595;
+  text-align:center;
+  padding:15px 0;
+  box-sizing:border-box;
+  height:650px;
+}
+
+.left img{
+  width:70%;
+  border:2px solid black;
+  margin:0 auto;
+  margin:25px;
+}
+
+/*a[href*="https://commons.wikimedia.org/wiki/File%3AUltimate_Frisbee%2C_Jul_2009_-_17.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Ultimate_Frisbee%2C_Jul_2009_-_19.jpg" alt="Creative Common Ultimate Photo" title="By Ed Yourdon [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)"{
+  margin-top:5px;
+}*/
+
+.right{
+  display:block;
+  float:right;
+  width:75%;
+}
+
+section{
+  background-color:#ffffff;
+}
+
+h2{
+  font-size:170%;
+  text-transform:uppercase;
+  text-align:center;
+  color:#3d3d3d;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+p{
+  font-size:100%;
+  font-family:Verdana, Geneva, sans-serif;
+  text-align:center;
+}
+
+ul{
+  list-style-type:circle;
+  font-size:120%;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+table{
+  font-size:100%;
+  font-family:Verdana, Geneva, sans-serif;
+  width:90%;
+  margin:0 auto;
+  box-sizing:border-box;
+  width:800px;
+  height:500px;
+  -webkit-border-radius:10px 10px 0 0;
+  border-radius:10px 10px 0 0;
+}
+
+th{
+  -webkit-border-radius:10px 10px 0 0;
+  border-radius:10px 10px 0 0;
+  background-image:linear-gradient(to left, #ffb8b8, #ecb699, #cdb888, #a7b888, #81b595);
+  background-image:-webkit-gradient(linear, right top, left top, from(#ffb8b8), color-stop(#ecb699), color-stop(#cdb888), color-stop(#a7b888), to(#81b595));
+  background-image:-o-linear-gradient(right, #ffb8b8, #ecb699, #cdb888, #a7b888, #81b595);
+  background-image:linear-gradient(to left, #ffb8b8, #ecb699, #cdb888, #a7b888, #81b595);
+  color:#ffffff;
+  border-bottom-style:solid;
+  border-bottom-width:medium;
+}
+
+td{
+  background-color:#c9c8c5;
+  padding:5px;
+  color:#000000;
+  border-radius:2px;
+  text-shadow:1px 1px #FF0000;
+}  
+
+td,th{
+    text-align:left;
+}
+
+td + td,th + th{
+    text-align:center;
+}
+
+tr,td {
+  opacity:0.7;
+}
+
+tr:hover {
+  opacity:1;
+}
